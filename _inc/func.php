@@ -1,6 +1,6 @@
 <?php
 
-function pages() 
+function pages($db)  // Pass the database connection to the function
 {
     if (!empty($_GET['page'])) {
         if (file_exists('pages/' . $_GET['page'] . '.php')) {
