@@ -16,7 +16,7 @@ function pages()
     }
 }
 
-// Function to connect to the database
+// Function to connect to the databasegit@github.com:zahidamin/practice.git
 function dbConnect() {
     $host = 'localhost';
     $user = 'root';
